@@ -1,0 +1,21 @@
+{
+  "name": "diegomengarda/laravel-base-api",
+  "type": "library",
+  "description": "Laravel helper library to build API's",
+  "require": {
+    "php": ">=7.0",
+    "ext-curl": "*",
+    "laravel/framework": "^5.5",
+    "tymon/jwt-auth": "dev-develop"
+  },
+  "autoload": {
+    "psr-4": {
+      "DiegoMengarda\\LaravelBaseApi\\": "src/"
+    }
+  },
+  "config": {
+    "preferred-install": "source",
+    "sort-packages": true,
+    "optimize-autoloader": true
+  }
+}
